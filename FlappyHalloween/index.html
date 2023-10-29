@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <title>Flappy Mario</title>
+</head>
+
+<body>
+    <div class="game-board">
+        <img src="images/howgwarts.webp" class="background">
+        <img src="images/harrypotter.gif" class="mario">
+        <img src="./images/pipe.png" class="pipe">
+        <img src="./images/dementors.png" class="clouds">
+        <img src="./images/game-over.png" class="game-over" id="game-over-image" style="display: none;">
+    </div>
+
+    <div id="game-over-popup" class="game-over-popup" style="display: none;">
+        <p>Game Over!</p>
+        <button id="try-again-button">Try Again</button>
+        <button id="exit-button">Exit</button>
+    </div>
+
+</body>
+
+</html>
